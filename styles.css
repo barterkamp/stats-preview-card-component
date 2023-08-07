@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+    src: url('./assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+    src: url('./assets/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LexendDeca-Regular';
+    font-weight: 400;
+    src: url('./assets/fonts/LexendDeca-Regular.ttf') format('truetype');
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2 {
+    overflow-wrap: break-word;
+}
