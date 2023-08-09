@@ -54,6 +54,8 @@ p, h1, h2 {
     min-height: 100%;
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 88px;
+    padding-bottom: 88px;
 }
 
 @media (min-width: 1150px) {
